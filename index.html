@@ -1,11 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
-    
+
+  <nav class="navbar bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light">Navbar</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="w-100 d-flex justify-content-center align-items-center flex-column" style="height: 1200px; gap: 10px;">
+    <header class="w-100" style="height:705px;">
+      <div class="w-100 d-flex justify-content-center align-items-center flex-column" style="background-image: url('https://www.theglobeandmail.com/resizer/v2/NYDRQD7YEBEK3O43X43AL77IA4.jpg?auth=1178bbf23f013e9a7d5eb6febd18e74d954fe5b2bb824b105c120097d42c4a68&width=600&quality=80'); height:700px; background-size:cover; background-position: center;">
+        <h1 class="text-danger fw-bold" style="text-shadow: 5px 10px 7px black;">Spider-Man</h1>
+      </div>
+      <hr>
+    </header>
+    <h1 class="text-decoration-underline mt-4 fw-semibold">Eng ko'p ko'rilgan filmlari:</h1>
+    <main class="w-100 d-flex justify-content-evenly mt-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://4kwallpapers.com/images/wallpapers/marvels-spider-man-2560x2560-13495.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Spider-Man 1</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Ko'rish</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUprtW870soQ1ZBsuu5quXDw0znS9BvQqA739TWYCieg&s" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Spider-Man 2</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Ko'rish</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWDIzuNkIXGLed0PQ8kn7fvvEJgzQZq49-DT1tsEp_bQ&s=10" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Spider-Man 3</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Ko'rish</a>
+        </div>
+      </div>
+    </main>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination mt-3">
+        <li class="page-item"><a class="page-link" href="#">Ortga</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Oldinga</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <div class="text-dark fs-5 mt-3" style="width: 100%;
+             height: 30px; background-color: gray;">© Mualliflik huquqi 2025-yil.</div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
+
 </html>
